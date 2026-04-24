@@ -1,6 +1,8 @@
 clc;
 clear;
 
+% create reduced surrogates
+
 matrix_con = table2array(readtable("thr_30\binary_all.csv")); % group-level SC mask (density 30%)
 
 long_range = table2array(readtable("thr_30\long_25.csv")); % long range connections
