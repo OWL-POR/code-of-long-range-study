@@ -1,5 +1,5 @@
 function SI = search_information_for_nav(W, path_all, has_memory)
-% SEARCH_INFORMATION                    Search information (Modified based on search_information.m (in Brain connectivity toolbox))
+% SEARCH_INFORMATION                    Search information based on navigation strategy (Modified based on search_information.m (in Brain connectivity toolbox))
 %
 %   SI = search_information(W, L,has_memory)
 %
