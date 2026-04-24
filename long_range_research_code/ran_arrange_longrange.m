@@ -1,6 +1,8 @@
 clc;
 clear;
 
+% create spatial surrogates
+
 bin_num = 1; % Stepwise increase the number of bins, until until the average streamline length of long-range connections in the real group-level matrix fell between the 45th and 55th percentiles of 1000 surrogate networks
 
 origin_mean_length = table2array(readtable("SL\streamline_length_mean.csv")); % Non-thresholded average streamline-length matrix (nearly 100% density)
